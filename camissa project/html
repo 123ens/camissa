@@ -21,19 +21,71 @@
     </header>
     <section id="home">
         <h2 class="centered-heading">Welcome to Camissa Painters</h2>
-        <img src="https://drive.google.com/uc?export=view&id=1SY4VKu-TI-C0aLVKMGYDB2IDi278mS6E" alt="Camissa Painters Banner">
+        <img src="https://postimg.cc/23vTtx6J" alt="Camissa Painters Banner">
         <p>At Camissa Painters, we are your trusted experts in delivering exceptional painting services for both commercial and residential properties. Whether it's revitalizing the interior of your home, enhancing the exterior of your business, or ensuring durable protection with our advanced waterproofing solutions, we bring precision, quality, and professionalism to every project.</p>
     </section>
+
+
     <section id="services">
         <h2 class="centered-heading">Our Services</h2>
-        <ul>
-            <li>Commercial Painting</li>
-            <li>Residential Painting</li>
-            <li>Interior Painting</li>
-            <li>Exterior Painting</li>
-            <li>Waterproofing</li>
-        </ul>
+
+        <div class="services-section">
+            <div class="service">
+                <img src="path-to-residential-image.jpg" alt="Residential Building">
+
+                <h3>Residential Painting Services</h3>
+                <p>When it comes to home painting, look no further than our team. We provide comprehensive services that go beyond just applying paint.</p>
+                <button>View Services</button>
+            </div>
+
+            <h3>Commercial Painting Services</h3>
+                <p>Office and commercial space paintings can be challenging. We have years of experience managing commercial painting projects.</p>
+                <button>View Services</button>
+            </div>
+            <div class="service">
+                <img src="path-to-interior-image.jpg" alt="Interior Painting">
+                <h3>Interior Painting Services</h3>
+                <p>Transform your interior spaces into your personalized interior design sanctuary. We ensure high-quality finishes that rejuvenate your home or office.</p>
+                <button>View Services</button>
+            </div>
+
+        </div>
+
+        <h3>Exterior Painting Services</h3>
+                <p>Enhance your property's curb appeal with our expert exterior painting services. Our team uses durable, weather-resistant paints to ensure lasting beauty.</p>
+                <button>View Services</button>
+            </div>
+            <div class="service">
+                <img src="path-to-roof-image.jpg" alt="Roof Painting and Cleaning">
+                <h3>Roof Painting and Cleaning Services</h3>
+                <p>Roof maintenance is crucial. Our team provides efficient roof cleaning and painting services to keep your roof in top condition.</p>
+                <button>View Services</button>
+            </div>
+            <div class="service">
+                <img src="path-to-waterproofing-image.jpg" alt="Waterproofing">
+                <h3>Waterproofing Services</h3>
+                <p>Protect your property from water damage with our expert waterproofing services. We use high-quality materials to ensure long-lasting results.</p>
+                <button>View Services</button>
+            </div>
+        </div>
+        
     </section>
+
+    <section id="progress">
+        <h2>Our Progress</h2>
+        <div class="progress-section">
+            <div class="progress-step">
+                <h3>Completion</h3>
+                <p>We conduct a final inspection to ensure everything meets your satisfaction.</p>
+            </div>
+            <div class="progress-step">
+                <h3>Servicing</h3>
+                <p>Our professional contractors will complete the job efficiently and to the highest standards.</p>
+            </div>
+        </div>
+    </section>
+    
+
     <section id="about">
         <h2 class="centered-heading">About Us</h2>
         <p>Camissa Painters is dedicated to providing top-quality painting services for both commercial and residential properties. Our team of experienced professionals ensures that every project is completed to the highest standards.</p>
