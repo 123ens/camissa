@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriptioin" content="Camissa Painters - Professional commercial and residential painting services. interiorand Exterior painting">
+    <title>Camissa Painters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Camissa Painters</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2 class="centered-heading">Welcome to Camissa Painters</h2>
+        <img src="https://drive.google.com/uc?export=view&id=1SY4VKu-TI-C0aLVKMGYDB2IDi278mS6E" alt="Camissa Painters Banner">
+        <p>At Camissa Painters, we are your trusted experts in delivering exceptional painting services for both commercial and residential properties. Whether it's revitalizing the interior of your home, enhancing the exterior of your business, or ensuring durable protection with our advanced waterproofing solutions, we bring precision, quality, and professionalism to every project.</p>
+    </section>
+    <section id="services">
+        <h2 class="centered-heading">Our Services</h2>
+        <ul>
+            <li>Commercial Painting</li>
+            <li>Residential Painting</li>
+            <li>Interior Painting</li>
+            <li>Exterior Painting</li>
+            <li>Waterproofing</li>
+        </ul>
+    </section>
+    <section id="about">
+        <h2 class="centered-heading">About Us</h2>
+        <p>Camissa Painters is dedicated to providing top-quality painting services for both commercial and residential properties. Our team of experienced professionals ensures that every project is completed to the highest standards.</p>
+    </section>
+    <section id="contact">
+        <h2 class="centered-heading">Contact Us</h2>
+        <div class="contact-info">
+            <p>Email: hello@camissapainting.co.za</p>
+        <p>Phone: +27 84 9694 852</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Camissa Painters Pty(Ltd)
