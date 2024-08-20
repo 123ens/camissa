@@ -55,6 +55,80 @@ section {
     margin: 0 10px;
 }
 
+#services .services-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#services .service {
+    flex-basis: calc(33.333% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+#services .service img {
+    width: 100%;
+    height: auto;
+}
+
+#services .service h3 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+#services .service p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+#services .service button {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 0.5em 0.75em;
+    cursor: pointer;
+}
+
+#progress {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*progess section*/
+#progress h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.progress-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.progress-step {
+    flex-basis: calc(50% - 20px);
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.progress-step h3 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.progress-step p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+
 #contact .contact-info {
     display: flex;
     flex-direction: column;
