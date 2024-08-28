@@ -594,3 +594,62 @@ footer {
 }
 /*ENDS REQUEAT A QUOTE*/
 
+/*MEDIA QUERIES*/
+/* Default styles (Mobile First) */
+body {
+  font-size: 16px;
+  padding: 10px;
+  /* Other default styles */
+}
+
+/* Small phones, portrait and landscape */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+    /* Adjustments for small phones */
+  }
+}
+
+/* Medium phones, landscape */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  body {
+    font-size: 15px;
+    /* Adjustments for medium phones */
+  }
+}
+
+/* Tablets, portrait and landscape */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+    /* Adjustments for tablets */
+  }
+}
+
+/* Small desktop/laptop screens */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    font-size: 18px;
+    padding: 30px;
+    /* Adjustments for small desktops */
+  }
+}
+
+/* Medium to large desktop screens */
+@media only screen and (min-width: 1281px) and (max-width: 1600px) {
+  body {
+    font-size: 20px;
+    padding: 40px;
+    /* Adjustments for medium to large desktops */
+  }
+}
+
+/* Extra large screens, large desktops */
+@media only screen and (min-width: 1601px) {
+  body {
+    font-size: 22px;
+    padding: 50px;
+    /* Adjustments for extra large screens */
+  }
+}
