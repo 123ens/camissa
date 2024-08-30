@@ -609,13 +609,16 @@ body {
     }
 
     .banner-text {
-      padding: 1px;
-      margin: 0 5px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding: 1px;
+        margin: 0 5px;
          width: 100%;
     }
 
     .banner-text p {
-        font-size: 0.55em; /* Even smaller font size for p */
+        font-size: 0.50em; /* Even smaller font size for p */
        
     }
 }
