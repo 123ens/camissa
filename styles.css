@@ -609,7 +609,7 @@ body {
     }
 
     .banner-text {
-        padding: 0 5px 5px 5px; /* More precise control over padding */
+        padding: 0 3px 3px 3px; /* More precise control over padding */
         margin: 0 ; /* Center align horizontally if needed */
         width: 100%;
     }
