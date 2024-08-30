@@ -608,6 +608,11 @@ body {
         font-size: 1.2em; /* Even smaller font size for h2 */
     }
 
+    .banner-text {
+      padding: 10px;
+      margin: 0 5px;
+    }
+
     .banner-text p {
         font-size: 0.55em; /* Even smaller font size for p */
     }
