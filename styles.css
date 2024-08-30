@@ -605,24 +605,20 @@ body {
 /* Small phones, portrait and landscape */
 @media only screen and (max-width: 480px) {
     h2.centered-heading {
-        font-size: 1.2em; /* Even smaller font size for h2 */
+        font-size: 1.2em; /* Smaller font size for h2 */
     }
 
     .banner-text {
-        padding-right: 5px
-        padding-bottom: 5px;
-        padding-left: 5px;
-        padding-top: 1px
-        padding: 1px;
-        margin: 0 5px;
-         width: 100%;
+        padding: 0 5px 1px 5px; /* More precise control over padding */
+        margin: 0 auto; /* Center align horizontally if needed */
+        width: 100%;
     }
 
     .banner-text p {
-        font-size: 0.50em; /* Even smaller font size for p */
-       
+        font-size: 0.55em; /* Smaller font size for p */
     }
 }
+
 
 /* Medium phones, landscape */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
