@@ -604,10 +604,13 @@ body {
 
 /* Small phones, portrait and landscape */
 @media only screen and (max-width: 480px) {
-  body {
-    font-size: 14px;
-    /* Adjustments for small phones */
-  }
+    h2.centered-heading {
+        font-size: 1.2em; /* Even smaller font size for h2 */
+    }
+
+    .banner-text p {
+        font-size: 0.75em; /* Even smaller font size for p */
+    }
 }
 
 /* Medium phones, landscape */
