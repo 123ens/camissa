@@ -615,6 +615,7 @@ body {
 
     .banner-text p {
         font-size: 0.55em; /* Even smaller font size for p */
+        width: 100%;
     }
 }
 
